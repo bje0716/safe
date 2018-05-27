@@ -1,0 +1,115 @@
+{
+  "project_info": {
+    "project_number": "645128475822",
+    "firebase_url": "https://pangpang-6ee20.firebaseio.com",
+    "project_id": "pangpang-6ee20",
+    "storage_bucket": "pangpang-6ee20.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:645128475822:android:c3d41d06fcec223b",
+        "android_client_info": {
+          "package_name": "com.dongeui.pangpang"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "645128475822-rd81r6mlenrvftfehl0o0dkhtfipe7pm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dongeui.pangpang",
+            "certificate_hash": "c46c65bb0a7bcf7376655385f2909940808911ba"
+          }
+        },
+        {
+          "client_id": "645128475822-5ni97vu4io4l1f94gaq6cde5aa7rm26f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dongeui.pangpang",
+            "certificate_hash": "bc2fed60a48b17997ada636f7288c3ffd9c539ad"
+          }
+        },
+        {
+          "client_id": "645128475822-5iksg4epoqen7e0mf8pmiavkhgn5vjnj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dongeui.pangpang",
+            "certificate_hash": "e2c9473c929d46e5ea36ebc633ac16d49ac46703"
+          }
+        },
+        {
+          "client_id": "645128475822-55609sqkujc98l75vpoh5b723oipih10.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAy4CiiK3KRe7VdrbO1k4jPhQ99SS3FnHM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "645128475822-55609sqkujc98l75vpoh5b723oipih10.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:645128475822:android:beff0c393f8dabe8",
+        "android_client_info": {
+          "package_name": "kr.ac.dongeui.pangpang"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "645128475822-q565eh9cv4ggt9s8b4vik3kdu1frrpd4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "kr.ac.dongeui.pangpang",
+            "certificate_hash": "6d988988a6a64d442f210d7d4a325648f2075556"
+          }
+        },
+        {
+          "client_id": "645128475822-55609sqkujc98l75vpoh5b723oipih10.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAy4CiiK3KRe7VdrbO1k4jPhQ99SS3FnHM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "645128475822-55609sqkujc98l75vpoh5b723oipih10.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

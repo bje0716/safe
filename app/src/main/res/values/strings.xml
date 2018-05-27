@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">PangPang - 차량 사고 알림이</string>
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="도움 주신 분들">
+
+        <PreferenceScreen
+            android:title="경남정보대학교 컴퓨터계열 변재명"
+            android:summary="안드로이드 클라이언트 개발" />
+
+        <PreferenceScreen
+            android:title="서강대학교 전자공학과 임채현"
+            android:summary="안드로이드 클라이언트 UI/UX"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="기타">
+
+        <Preference
+            android:title="PangPang 버전"
+            android:summary="2.0" />
+
+        <Preference android:key="opensource"
+            android:title="오픈소스 라이센스" />
+    </PreferenceCategory>
+</PreferenceScreen>

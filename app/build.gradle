@@ -1,0 +1,52 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 27
+    defaultConfig {
+        applicationId "kr.ac.dongeui.pangpang"
+        minSdkVersion 19
+        targetSdkVersion 27
+        versionCode 1
+        versionName "1.0"
+        vectorDrawables.useSupportLibrary true
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    dataBinding {
+        enabled true
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+project.ext {
+    supportLib = '27.1.1'
+    googleLib = '15.0.1'
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation "com.android.support:appcompat-v7:$supportLib"
+    implementation "com.android.support:cardview-v7:$supportLib"
+    implementation "com.android.support:design:$supportLib"
+    implementation "com.android.support:recyclerview-v7:$supportLib"
+    implementation 'gun0912.ted:tedpermission:2.2.0'
+    implementation 'com.github.bumptech.glide:glide:4.7.1'
+    implementation 'com.google.firebase:firebase-auth:15.1.0'
+    implementation "com.google.firebase:firebase-database:$googleLib"
+    implementation 'com.google.firebase:firebase-messaging:15.0.2'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.7.1'
+    implementation 'de.hdodenhof:circleimageview:2.2.0'
+    implementation 'com.squareup.okhttp3:okhttp:3.10.0'
+    implementation 'com.akexorcist:bluetoothspp:1.0.0'
+    implementation 'de.psdev.licensesdialog:licensesdialog:1.8.3'
+    implementation "com.google.android.gms:play-services-auth:$googleLib"
+}
+
+apply plugin: 'com.google.gms.google-services'
